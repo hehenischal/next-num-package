@@ -2003,4 +2003,5 @@ def nextnum(num):
         return 999
     elif num == 999:
         return 1000
-    return f"{num} + 1"
+    else:
+        return f"{num} + 1"
