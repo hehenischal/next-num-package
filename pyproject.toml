@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nextnum"
+version = "1.2.4"
+description = "A Python package for replacing '+' with a more meaningful symbol."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Nischal Lamichhane", email = "nishcallc56@gmail.com"}
+]
+dependencies = []  # Add any dependencies here
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent"
+]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/hehenischal/next-num-package"

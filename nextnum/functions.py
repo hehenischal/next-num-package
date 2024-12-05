@@ -1,4 +1,4 @@
-def nextnum(num):
+def nextnum(num: int):
     if not isinstance(num, int):
         return("num must be an integer")
     elif num < 0:
